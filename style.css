@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #cc0000;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #990000;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: #cc0000;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    color: #990000;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.info {
+    background-color: #ffe6e6;
+    border: 2px solid #cc0000;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.picture {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 22px;
+}
+
+#main-header {
+    background-color: #cc0000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact p{
+    font-size: 22px;
+}
+details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+summary {
+    color: #cc0000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+    padding: 2px 4px;
+}
+
+
