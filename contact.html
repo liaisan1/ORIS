@@ -26,9 +26,28 @@
         <p>Напишите нам письмо на электронную почту: FanatFerrari@gmail.com</p>
         <p>Позвоните по телефону: 89877777777</p>
     </div>
+    <!-- Форма обратной связи -->
+    <div class="contact-form">
+        <h2>Обратная связь</h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Ваше имя">
+            <span id="name-error" class="error"></span>
+        
+            <input type="email" id="email" placeholder="Ваш email">
+            <span id="email-error" class="error"></span>
+        
+            <textarea id="message" placeholder="Ваше сообщение"></textarea>
+            <span id="message-error" class="error"></span>
+        
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
 
     <footer id="main-footer">
         <p>© 2025 Фан-сайт Ferrari</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

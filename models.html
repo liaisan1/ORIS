@@ -36,9 +36,28 @@
         <p>Моя любимая Ferrari</p>
         </div>
     </div>
+    <!-- Слайдер -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Z8Y_zKrhvZgY6lKCAyk7fm1Qc8p1ddrt-Q&s" alt="Ferrari 1">
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCuSNlr8uXKeajqMg4-OmZsaenLTFDXp6MWA&s" alt="Ferrari 2">
+            </div>
+            <div class="slide">
+                <img src="https://kolesa-uploads.ru/-/06697eb7-50da-432d-8127-0a7f92fe12fb/0-1.jpg" alt="Ferrari 3">
+        </div>
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+</div>
+
 
     <footer id="main-footer">
         <p>© 2025 Фан-сайт Ferrari</p>
     </footer>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    <script src="script.js"></script>
 </body>
 </html>
